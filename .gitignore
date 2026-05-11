@@ -1,0 +1,27 @@
+# Build artifacts (mkdir build && cd build && cmake ..)
+build/
+cmake-build-*/
+
+# Visual Studio / CMake Tools (use build/ via terminal or WSL instead)
+.vs/
+out/
+*.slnx
+*.suo
+*.user
+
+# Runtime data
+data/
+*.log
+
+# Local docs (not part of repo)
+docs/
+
+# Editor / OS
+*.swp
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Downloaded by CMake FetchContent (Crow) — never commit
+_deps/
